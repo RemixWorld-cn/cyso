@@ -1,0 +1,27 @@
+﻿node.exe : npm error code ERESOLVE
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm error code ERESOLVE:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm error ERESOLVE unable to resolve dependency tree
+npm error
+npm error While resolving: cysoeditor-gui@3.2.37
+npm error Found: react-responsive@5.0.0
+npm error node_modules/react-responsive
+npm error   react-responsive@"5.0.0" from the root project
+npm error
+npm error Could not resolve dependency:
+npm error peer react-responsive@"^4" from scratch-paint@0.2.0
+npm error node_modules/scratch-paint
+npm error   scratch-paint@"github:Bilup/scratch-paint#develop" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry this command with --force or --legacy-peer-deps to accept an i
+ncorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error C:\Users\Lenovo\AppData\Local\npm-cache\_logs\2026-08-14T00_28_25_509Z-eresolve-report.txt
+npm error A complete log of this run can be found in: C:\Users\Lenovo\AppData\Local\npm-cache\_logs\2026-08-14T00_28_25
+_509Z-debug-0.log
