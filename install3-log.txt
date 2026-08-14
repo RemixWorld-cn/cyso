@@ -1,0 +1,11 @@
+﻿node.exe : npm error code ETARGET
+所在位置 行:1 字符: 1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm error code ETARGET:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm error notarget No matching version found for scratch-audio@^0.1.0.
+npm error notarget In most cases you or one of your dependencies are requesting a package version that doesn't exist.
+npm error A complete log of this run can be found in: C:\Users\Lenovo\AppData\Local\npm-cache\_logs\2026-08-13T11_33_52
+_428Z-debug-0.log

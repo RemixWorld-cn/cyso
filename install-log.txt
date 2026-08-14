@@ -1,0 +1,21 @@
+﻿
+> cysoeditor-gui@3.2.37 prepublish
+> node scripts/prepublish.mjs
+
+Downloading https://packagerdata.turbowarp.org/scratch-microbit-1.2.0.hex.zip
+Found matching file: scratch-microbit-1.2.0.hex
+Extracting static\microbit\scratch-microbit-1.2.0.hex
+node.exe : Multiple matching files found. Ignoring: __MACOSX/._scratch-microbit-1.2.0.hex
+所在位置 行:1 字符: 1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Multiple matchi...robit-1.2.0.hex:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Wrote src\generated\microbit-hex-url.cjs
+Prepublish script complete
+
+up to date in 12s
+
+200 packages are looking for funding
+  run `npm fund` for details

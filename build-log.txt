@@ -1,0 +1,8 @@
+
+> cysoeditor-gui@3.2.37 build
+> npm run clean && webpack --colors --bail
+
+
+> cysoeditor-gui@3.2.37 clean
+> rimraf ./build && mkdirp build && rimraf ./dist && mkdirp dist
+

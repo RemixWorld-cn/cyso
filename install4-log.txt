@@ -1,0 +1,138 @@
+﻿node.exe : npm warn deprecated read-package-json@2.1.2: This package is no longer supported. Please use @npmcli/package
+-json instead.
+所在位置 行:1 字符: 1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm warn deprec...e-json instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm warn deprecated audio-context@1.0.3: Depends on Web-Audio-API implementation. Use either web-audio-api, web-audio-j
+s or web-audio-engine package.
+npm warn deprecated hull.js@0.2.10: This package is unmaintained and vulnerable. Do not use it.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     'E:\\RemixWarp\\cyso\\node_modules\\@nicolo-ribaudo\\.eslint-scope-5-internals-xjjYrMcQ',
+npm warn cleanup     Error: [safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":52,"threshold":50,"scope":"turn",
+"targets":["E:\\RemixWarp\\cyso\\node_modules\\@nicolo-ribaudo\\.eslint-scope-5-internals-xjjYrMcQ"],"targetCount":1}
+npm warn cleanup         at checkBulkDeleteGuard (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\ext
+ensions\genie\out\vendor\shim\node-safe-delete-shim.cjs:273:19)
+npm warn cleanup         at tryTrash (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\geni
+e\out\vendor\shim\node-safe-delete-shim.cjs:602:5)
+npm warn cleanup         at tryRm (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\genie\o
+ut\vendor\shim\node-safe-delete-shim.cjs:775:5)
+npm warn cleanup         at wrappedPromisesRm (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\extens
+ions\genie\out\vendor\shim\node-safe-delete-shim.cjs:819:15)
+npm warn cleanup         at _rm (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\re
+ify.js:1307:25)
+npm warn cleanup         at [removeTrash] (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\a
+rborist\reify.js:1310:21)
+npm warn cleanup         at #reifyPackages (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\
+arborist\reify.js:332:29)
+npm warn cleanup         at async Arborist.reify (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arboris
+t\lib\arborist\reify.js:127:5)
+npm warn cleanup         at async Install.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\install.js:146:5)
+npm warn cleanup         at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:193:9)
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     'E:\\RemixWarp\\cyso\\node_modules\\.eslint-scope-sPRTo5hO',
+npm warn cleanup     Error: [safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":67,"threshold":50,"scope":"turn",
+"targets":["E:\\RemixWarp\\cyso\\node_modules\\.eslint-scope-sPRTo5hO"],"targetCount":1}
+npm warn cleanup         at checkBulkDeleteGuard (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\ext
+ensions\genie\out\vendor\shim\node-safe-delete-shim.cjs:273:19)
+npm warn cleanup         at tryTrash (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\geni
+e\out\vendor\shim\node-safe-delete-shim.cjs:602:5)
+npm warn cleanup         at tryRm (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\genie\o
+ut\vendor\shim\node-safe-delete-shim.cjs:775:5)
+npm warn cleanup         at wrappedPromisesRm (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\extens
+ions\genie\out\vendor\shim\node-safe-delete-shim.cjs:819:15)
+npm warn cleanup         at _rm (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\re
+ify.js:1307:25)
+npm warn cleanup         at [removeTrash] (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\a
+rborist\reify.js:1310:21)
+npm warn cleanup         at #reifyPackages (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\
+arborist\reify.js:332:29)
+npm warn cleanup         at async Arborist.reify (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arboris
+t\lib\arborist\reify.js:127:5)
+npm warn cleanup         at async Install.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\install.js:146:5)
+npm warn cleanup         at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:193:9)
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     'E:\\RemixWarp\\cyso\\node_modules\\.eslint-visitor-keys-n3Hnoc0A',
+npm warn cleanup     Error: [safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":55,"threshold":50,"scope":"turn",
+"targets":["E:\\RemixWarp\\cyso\\node_modules\\.eslint-visitor-keys-n3Hnoc0A"],"targetCount":1}
+npm warn cleanup         at checkBulkDeleteGuard (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\ext
+ensions\genie\out\vendor\shim\node-safe-delete-shim.cjs:273:19)
+npm warn cleanup         at tryTrash (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\geni
+e\out\vendor\shim\node-safe-delete-shim.cjs:602:5)
+npm warn cleanup         at tryRm (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\genie\o
+ut\vendor\shim\node-safe-delete-shim.cjs:775:5)
+npm warn cleanup         at wrappedPromisesRm (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\extens
+ions\genie\out\vendor\shim\node-safe-delete-shim.cjs:819:15)
+npm warn cleanup         at _rm (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\re
+ify.js:1307:25)
+npm warn cleanup         at [removeTrash] (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\a
+rborist\reify.js:1310:21)
+npm warn cleanup         at #reifyPackages (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\
+arborist\reify.js:332:29)
+npm warn cleanup         at async Arborist.reify (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arboris
+t\lib\arborist\reify.js:127:5)
+npm warn cleanup         at async Install.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\install.js:146:5)
+npm warn cleanup         at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:193:9)
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     'E:\\RemixWarp\\cyso\\node_modules\\.scratch-render-fonts-fkzgZmas',
+npm warn cleanup     Error: [safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":71,"threshold":50,"scope":"turn",
+"targets":["E:\\RemixWarp\\cyso\\node_modules\\.scratch-render-fonts-fkzgZmas"],"targetCount":1}
+npm warn cleanup         at checkBulkDeleteGuard (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\ext
+ensions\genie\out\vendor\shim\node-safe-delete-shim.cjs:273:19)
+npm warn cleanup         at tryTrash (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\geni
+e\out\vendor\shim\node-safe-delete-shim.cjs:602:5)
+npm warn cleanup         at tryRm (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\genie\o
+ut\vendor\shim\node-safe-delete-shim.cjs:775:5)
+npm warn cleanup         at wrappedPromisesRm (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\extens
+ions\genie\out\vendor\shim\node-safe-delete-shim.cjs:819:15)
+npm warn cleanup         at _rm (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\re
+ify.js:1307:25)
+npm warn cleanup         at [removeTrash] (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\a
+rborist\reify.js:1310:21)
+npm warn cleanup         at #reifyPackages (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\
+arborist\reify.js:332:29)
+npm warn cleanup         at async Arborist.reify (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arboris
+t\lib\arborist\reify.js:127:5)
+npm warn cleanup         at async Install.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\install.js:146:5)
+npm warn cleanup         at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:193:9)
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     'E:\\RemixWarp\\cyso\\node_modules\\.undici-tPWYexIa',
+npm warn cleanup     Error: [safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":238,"threshold":50,"scope":"turn"
+,"targets":["E:\\RemixWarp\\cyso\\node_modules\\.undici-tPWYexIa"],"targetCount":1}
+npm warn cleanup         at checkBulkDeleteGuard (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\ext
+ensions\genie\out\vendor\shim\node-safe-delete-shim.cjs:273:19)
+npm warn cleanup         at tryTrash (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\geni
+e\out\vendor\shim\node-safe-delete-shim.cjs:602:5)
+npm warn cleanup         at tryRm (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\genie\o
+ut\vendor\shim\node-safe-delete-shim.cjs:775:5)
+npm warn cleanup         at wrappedPromisesRm (C:\Users\Lenovo\AppData\Local\Programs\CodeBuddy CN\resources\app\extens
+ions\genie\out\vendor\shim\node-safe-delete-shim.cjs:819:15)
+npm warn cleanup         at _rm (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\re
+ify.js:1307:25)
+npm warn cleanup         at [removeTrash] (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\a
+rborist\reify.js:1310:21)
+npm warn cleanup         at #reifyPackages (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\
+arborist\reify.js:332:29)
+npm warn cleanup         at async Arborist.reify (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arboris
+t\lib\arborist\reify.js:127:5)
+npm warn cleanup         at async Install.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\install.js:146:5)
+npm warn cleanup         at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:193:9)
+npm warn cleanup   ]
+npm warn cleanup ]
+
+> cysoeditor-gui@3.2.37 prepublish
+> node scripts/prepublish.mjs
+
+Downloading https://packagerdata.turbowarp.org/scratch-microbit-1.2.0.hex.zip
+
+added 120 packages, removed 6 packages, and changed 1 package in 28s
+
+208 packages are looking for funding
+  run `npm fund` for details

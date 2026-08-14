@@ -69,7 +69,11 @@ const base = {
             // 强制 scratch-blocks 走新版 compressed 入口（含自定义返回值等新特性）。
             // 否则可能解析到旧的 uncompressed 版本，导致
             // workspace.enableProcedureReturns 等新 API 缺失。
-            'scratch-blocks$': path.resolve(__dirname, 'node_modules/scratch-blocks/shim/vertical.js')
+            'scratch-blocks$': path.resolve(__dirname, 'node_modules/scratch-blocks/shim/vertical.js'),
+            // scratch-render@2.2.84 的 package.json 只有 exports 字段、无 main 字段，
+            // 而本项目使用 webpack 4（不支持 package exports），会报
+            // "Can't resolve 'scratch-render'"。直接 alias 到其源码入口解决解析。
+            'scratch-render$': path.resolve(__dirname, 'node_modules/scratch-render/src/index.js')
         }
     },
     module: {

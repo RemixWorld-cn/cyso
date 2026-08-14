@@ -1,0 +1,34 @@
+﻿node.exe : npm error code ERESOLVE
+所在位置 行:1 字符: 1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm error code ERESOLVE:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm error ERESOLVE could not resolve
+npm error
+npm error While resolving: cysoeditor-gui@3.2.37
+npm error Found: scratch-render-fonts@1.0.0
+npm error node_modules/scratch-render-fonts
+npm error   peer scratch-render-fonts@"github:TurboWarp/scratch-render-fonts#master" from @turbowarp/scratch-svg-render
+er@1.0.202505311824
+npm error   node_modules/@turbowarp/scratch-svg-renderer
+npm error     @turbowarp/scratch-svg-renderer@"^1.0.0-202312242305-12c360b" from the root project
+npm error
+npm error Could not resolve dependency:
+npm error scratch-render@"^2.2.0" from the root project
+npm error
+npm error Conflicting peer dependency: scratch-render-fonts@1.0.252
+npm error node_modules/scratch-render-fonts
+npm error   peer scratch-render-fonts@"1.0.252" from scratch-render@2.2.84
+npm error   node_modules/scratch-render
+npm error     scratch-render@"^2.2.0" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry this command with --force or --legacy-peer-deps to accept an i
+ncorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error C:\Users\Lenovo\AppData\Local\npm-cache\_logs\2026-08-13T11_33_36_865Z-eresolve-report.txt
+npm error A complete log of this run can be found in: C:\Users\Lenovo\AppData\Local\npm-cache\_logs\2026-08-13T11_33_36
+_865Z-debug-0.log

@@ -1,5 +1,6 @@
 # CYSO Editor GUI
 
+
 CYSO Editor 的图形化用户界面，基于 [TurboWarp/scratch-gui](https://github.com/TurboWarp/scratch-gui) 与 Scratch 3.0 官方编辑器深度定制。提供编辑、运行 CYSO Editor 项目的完整界面，内置 Aurora 主题、CYSO Core 权限中心与扩展管理。
 
 ## 主要特性
