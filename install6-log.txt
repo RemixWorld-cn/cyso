@@ -29,6 +29,8 @@ npm error npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no l
 npm error npm warn deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
 npm error npm warn deprecated figgy-pudding@3.5.2: This module is no longer supported.
 npm error npm warn deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+npm error npm warn deprecated read-package-json@2.1.2: This package is no longer supported. Please use @npmcli/package-
+json instead.
 npm error npm warn deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
 npm error npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
 npm error npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
@@ -38,105 +40,109 @@ npm error npm warn deprecated copy-concurrently@1.0.5: This package is no longer
 npm error npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
 npm error npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
 npm error npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
-npm error npm warn deprecated read-package-json@2.1.2: This package is no longer supported. Please use @npmcli/package-
-json instead.
-npm error npm warn deprecated har-validator@5.1.5: this library is no longer supported
-npm error npm warn deprecated glob@7.1.2: Glob versions prior to v9 are no longer supported
-npm error npm warn deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
-npm error npm warn deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
-npm error npm warn deprecated glob@5.0.15: Glob versions prior to v9 are no longer supported
-npm error npm warn deprecated intl-messageformat-parser@1.8.1: We've written a new parser that's 6x faster and is backw
-ards compatible. Please use @formatjs/icu-messageformat-parser
-npm error npm warn deprecated fs-write-stream-atomic@1.0.10: This package is no longer supported.
-npm error npm warn deprecated text-encoding@0.7.0: no longer maintained
-npm error npm warn deprecated @humanwhocodes/config-array@0.11.14: Use @eslint/config-array instead
 npm error npm warn deprecated @babel/plugin-proposal-private-methods@7.18.6: This proposal has been merged to the ECMAS
 cript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-methods instead
 .
-npm error npm warn deprecated @babel/plugin-proposal-export-namespace-from@7.18.9: This proposal has been merged to the
- ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-export-namespace-
-from instead.
-npm error npm warn deprecated @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECM
-AScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator ins
-tead.
-npm error npm warn deprecated @babel/plugin-proposal-json-strings@7.18.6: This proposal has been merged to the ECMAScri
-pt standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-json-strings instead.
 npm error npm warn deprecated @babel/plugin-proposal-optional-catch-binding@7.18.6: This proposal has been merged to th
 e ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-b
 inding instead.
-npm error npm warn deprecated @babel/plugin-proposal-dynamic-import@7.18.6: This proposal has been merged to the ECMASc
-ript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-dynamic-import instead.
 npm error npm warn deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged 
 to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coa
 lescing-operator instead.
-npm error npm warn deprecated @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMA
-Script standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties inste
-ad.
 npm error npm warn deprecated @babel/plugin-proposal-unicode-property-regex@7.18.6: This proposal has been merged to th
 e ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-unicode-property
 -regex instead.
-npm error npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random()
- in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
-npm error npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random()
- in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm error npm warn deprecated @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECM
+AScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator ins
+tead.
+npm error npm warn deprecated @babel/plugin-proposal-export-namespace-from@7.18.9: This proposal has been merged to the
+ ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-export-namespace-
+from instead.
+npm error npm warn deprecated @babel/plugin-proposal-dynamic-import@7.18.6: This proposal has been merged to the ECMASc
+ript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-dynamic-import instead.
+npm error npm warn deprecated @babel/plugin-proposal-json-strings@7.18.6: This proposal has been merged to the ECMAScri
+pt standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-json-strings instead.
+npm error npm warn deprecated @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMA
+Script standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties inste
+ad.
+npm error npm warn deprecated har-validator@5.1.5: this library is no longer supported
+npm error npm warn deprecated glob@7.1.2: Glob versions prior to v9 are no longer supported
+npm error npm warn deprecated @humanwhocodes/config-array@0.11.14: Use @eslint/config-array instead
 npm error npm warn deprecated @babel/plugin-proposal-class-static-block@7.21.0: This proposal has been merged to the EC
 MAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-static-block i
 nstead.
 npm error npm warn deprecated @babel/plugin-proposal-logical-assignment-operators@7.20.7: This proposal has been merged
  to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-logical-as
 signment-operators instead.
+npm error npm warn deprecated glob@5.0.15: Glob versions prior to v9 are no longer supported
 npm error npm warn deprecated @babel/plugin-proposal-private-property-in-object@7.21.11: This proposal has been merged 
 to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-pro
 perty-in-object instead.
 npm error npm warn deprecated @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECM
 AScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining ins
 tead.
+npm error npm warn deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm error npm warn deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
 npm error npm warn deprecated @babel/plugin-proposal-object-rest-spread@7.20.7: This proposal has been merged to the EC
 MAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread i
 nstead.
 npm error npm warn deprecated audio-context@1.0.1: Depends on Web-Audio-API implementation. Use either web-audio-api, w
 eb-audio-js or web-audio-engine package.
+npm error npm warn deprecated @babel/plugin-proposal-async-generator-functions@7.20.7: This proposal has been merged to
+ the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generat
+or-functions instead.
+npm error npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+npm error npm warn deprecated circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+npm error npm warn deprecated intl-messageformat-parser@1.8.1: We've written a new parser that's 6x faster and is backw
+ards compatible. Please use @formatjs/icu-messageformat-parser
+npm error npm warn deprecated fs-write-stream-atomic@1.0.10: This package is no longer supported.
+npm error npm warn deprecated text-encoding@0.7.0: no longer maintained
+npm error npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random()
+ in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm error npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random()
+ in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
 npm error npm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issue
 s/3142
 npm error npm warn deprecated babel-eslint@10.1.0: babel-eslint is now @babel/eslint-parser. This package will no longe
 r receive updates.
-npm error npm warn deprecated @babel/plugin-proposal-async-generator-functions@7.20.7: This proposal has been merged to
- the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generat
-or-functions instead.
-npm error npm warn deprecated circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
-npm error npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+npm error npm warn deprecated babel-plugin-react-intl@3.5.1: this package has been renamed to babel-plugin-formatjs
 npm error npm warn deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 
 1.x. (Note that the API surface has changed to use Promises in 1.x.)
 npm error npm warn tarball tarball data for uglify-es@https://registry.npmmirror.com/uglify-es/-/uglify-es-3.3.10.tgz (
 sha512-rPzPisCzW68Okj1zNrfa2dR9uEm43SevDmpR6FChoZABFk9dANGnzzBMgHYUXI3609//63fnVkyQ1SQmAMyjww==) seems to be corrupted.
  Trying again.
-npm error npm warn deprecated babel-plugin-react-intl@3.5.1: this package has been renamed to babel-plugin-formatjs
 npm error npm warn tarball tarball data for uglify-es@https://registry.npmmirror.com/uglify-es/-/uglify-es-3.3.10.tgz (
 sha512-rPzPisCzW68Okj1zNrfa2dR9uEm43SevDmpR6FChoZABFk9dANGnzzBMgHYUXI3609//63fnVkyQ1SQmAMyjww==) seems to be corrupted.
  Trying again.
+npm error npm warn deprecated hull.js@0.2.10: This package is not maintained anymore on npmjs.com, please use GitHub UR
+L to fetch the latest version. See the package homepage for instructions.
+npm error npm warn gitignore-fallback No .npmignore file found, using .gitignore for file exclusion. Consider creating 
+a .npmignore file to explicitly control published files.
+npm error npm warn gitignore-fallback No .npmignore file found, using .gitignore for file exclusion. Consider creating 
+a .npmignore file to explicitly control published files.
 npm error npm warn cleanup Failed to remove some directories [
 npm error npm warn cleanup   [
-npm error npm warn cleanup     '\\\\?\\C:\\Users\\Lenovo\\AppData\\Local\\npm-cache\\_cacache\\tmp\\git-cloneHG9J61\\no
-de_modules\\tap',
+npm error npm warn cleanup     '\\\\?\\C:\\Users\\Lenovo\\AppData\\Local\\npm-cache\\_cacache\\tmp\\git-cloneIZGZKN\\no
+de_modules\\@istanbuljs\\load-nyc-config',
 npm error npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\Lenovo\AppData\Local\npm-cache\_
-cacache\tmp\git-cloneHG9J61\node_modules\tap\node_modules\treport\node_modules'] {
+cacache\tmp\git-cloneIZGZKN\node_modules\@istanbuljs\load-nyc-config\node_modules\js-yaml\lib'] {
 npm error npm warn cleanup       errno: -4048,
 npm error npm warn cleanup       code: 'EPERM',
 npm error npm warn cleanup       syscall: 'rmdir',
-npm error npm warn cleanup       path: 'C:\\Users\\Lenovo\\AppData\\Local\\npm-cache\\_cacache\\tmp\\git-cloneHG9J61\\n
-ode_modules\\tap\\node_modules\\treport\\node_modules'
+npm error npm warn cleanup       path: 'C:\\Users\\Lenovo\\AppData\\Local\\npm-cache\\_cacache\\tmp\\git-cloneIZGZKN\\n
+ode_modules\\@istanbuljs\\load-nyc-config\\node_modules\\js-yaml\\lib'
 npm error npm warn cleanup     }
 npm error npm warn cleanup   ],
 npm error npm warn cleanup   [
-npm error npm warn cleanup     '\\\\?\\C:\\Users\\Lenovo\\AppData\\Local\\npm-cache\\_cacache\\tmp\\git-cloneHG9J61\\no
+npm error npm warn cleanup     '\\\\?\\C:\\Users\\Lenovo\\AppData\\Local\\npm-cache\\_cacache\\tmp\\git-cloneIZGZKN\\no
 de_modules',
 npm error npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\Lenovo\AppData\Local\npm-cache\_
-cacache\tmp\git-cloneHG9J61\node_modules\tap\node_modules\@babel'] {
+cacache\tmp\git-cloneIZGZKN\node_modules\tap\node_modules'] {
 npm error npm warn cleanup       errno: -4048,
 npm error npm warn cleanup       code: 'EPERM',
 npm error npm warn cleanup       syscall: 'rmdir',
-npm error npm warn cleanup       path: 'C:\\Users\\Lenovo\\AppData\\Local\\npm-cache\\_cacache\\tmp\\git-cloneHG9J61\\n
-ode_modules\\tap\\node_modules\\@babel'
+npm error npm warn cleanup       path: 'C:\\Users\\Lenovo\\AppData\\Local\\npm-cache\\_cacache\\tmp\\git-cloneIZGZKN\\n
+ode_modules\\tap\\node_modules'
 npm error npm warn cleanup     }
 npm error npm warn cleanup   ]
 npm error npm warn cleanup ]
@@ -146,6 +152,6 @@ egrity checksum failed when using sha512: wanted sha512-rPzPisCzW68Okj1zNrfa2dR9
 609//63fnVkyQ1SQmAMyjww== but got sha512-r+MU0rfv4L/0eeW3xZrd16t4NZfK8Ld4SWVglYBb7ez5uXFWHuVRs6xCTrf1yirs9a4j4Y27nn7SRf
 O6v67XsQ==. (156788 bytes)
 npm error npm error A complete log of this run can be found in: C:\Users\Lenovo\AppData\Local\npm-cache\_logs\2026-08-1
-5T00_52_18_228Z-debug-0.log
-npm error A complete log of this run can be found in: C:\Users\Lenovo\AppData\Local\npm-cache\_logs\2026-08-15T00_49_24
-_629Z-debug-0.log
+5T01_06_13_546Z-debug-0.log
+npm error A complete log of this run can be found in: C:\Users\Lenovo\AppData\Local\npm-cache\_logs\2026-08-15T00_59_56
+_477Z-debug-0.log

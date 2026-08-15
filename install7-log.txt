@@ -1,0 +1,14 @@
+﻿node.exe : npm error code 128
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm error code 128:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm error An unknown git error occurred
+npm error command git --no-replace-objects clone ssh://git@github.com/TurboWarp/scratch-parser.git C:\Users\Lenovo\AppD
+ata\Local\npm-cache\_cacache\tmp\git-cloneCvG6pA --recurse-submodules --depth=1 --config core.longpaths=true
+npm error fatal: destination path 'C:\Users\Lenovo\AppData\Local\npm-cache\_cacache\tmp\git-cloneCvG6pA' already exists
+ and is not an empty directory.
+npm error A complete log of this run can be found in: C:\Users\Lenovo\AppData\Local\npm-cache\_logs\2026-08-15T01_16_23
+_218Z-debug-0.log
